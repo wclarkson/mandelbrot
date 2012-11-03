@@ -1,0 +1,8 @@
+I was reading about the mathematical definition of the Mandelbrot Set and
+decided to implement it myself in Processing. Wikipedia has an interesting
+section on technical concerns about generating the Mandelbrot Set, and
+specifically on coloring. I have implemented two methods for coloring the
+set: the Normalized Iteration Count algorithm and a color mapping based
+on the escape time for a point. I also implemented a simple zoom function
+allowing the user to examine a section of the set in more detail. The
+program works, but there is definitely room for performance optimization.
